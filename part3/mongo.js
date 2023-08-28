@@ -7,7 +7,7 @@ if (process.argv.length < 3) {
 
 const password = process.argv[2];
 
-const url = `mongodb+srv://sushilthanet:${password}@cluster0.mezddj4.mongodb.net/?retryWrites=true&w=majority`;
+const url = `mongodb+srv://sushilthanet:${password}@cluster0.mezddj4.mongodb.net/fullstack_open?retryWrites=true&w=majority`;
 
 
 mongoose.set("strictQuery", false);
