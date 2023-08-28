@@ -21,12 +21,14 @@ const phonebookSchema = new mongoose.Schema({
 const Phonebook = mongoose.model("Phonebook", phonebookSchema);
 
 if (process.argv[3]) {
-  const contact = new Phonebook({
+  console.log("this is tesst: ",process.argv[3],process.argv[4]);
+  const phonebook = new Phonebook({
     name: process.argv[3],
-    number: process.argv[4],
+    number: process.argv[4]
   });
+  console.log("this is test 2 : ",phonebook.name , phonebook.number);
 
-  contact.save().then(() => {
+  phonebook.save().then((result) => {
     console.log(
       `added ${process.argv[3]} number ${process.argv[4]} to phonebook`
     );
