@@ -7,8 +7,8 @@ import reducer from "./reducer";
 const store = createStore(reducer);
 
 const App = () => {
-  const btnClick = (e) => {
-    console.log(e.target.name.toUpperCase());
+  const clickFunc = (e) => {
+    // console.log(e.target.name.toUpperCase());
     const dispatchType = e.target.name.toUpperCase();
     store.dispatch({
       type: dispatchType,
@@ -17,16 +17,16 @@ const App = () => {
 
   return (
     <div>
-      <button onClick={(e) => btnClick(e)} name="good">
+      <button onClick={(e) => clickFunc(e)} name="good">
         good
       </button>
-      <button onClick={(e) => btnClick(e)} name="ok">
+      <button onClick={(e) => clickFunc(e)} name="ok">
         ok
       </button>
-      <button onClick={(e) => btnClick(e)} name="bad">
+      <button onClick={(e) => clickFunc(e)} name="bad">
         bad
       </button>
-      <button onClick={(e) => btnClick(e)} name="zero">
+      <button onClick={(e) => clickFunc(e)} name="zero">
         reset stats
       </button>
       <div>good {store.getState().good}</div>

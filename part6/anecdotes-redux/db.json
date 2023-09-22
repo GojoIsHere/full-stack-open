@@ -1,0 +1,39 @@
+{
+  "anecdotes": [
+    {
+      "content": "If it hurts, do it more often",
+      "votes": 9,
+      "id": 1
+    },
+    {
+      "content": "Adding manpower to a late software project makes it later!",
+      "votes": 7,
+      "id": 2
+    },
+    {
+      "content": "The first 90 percent of the code accounts for the first 90 percent of the development time...The remaining 10 percent of the code accounts for the other 90 percent of the development time.",
+      "votes": 8,
+      "id": 3
+    },
+    {
+      "content": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+      "votes": 8,
+      "id": 4
+    },
+    {
+      "content": "Man of Words not of deeds is like garden full of weeds.",
+      "votes": 13,
+      "id": 5
+    },
+    {
+      "content": "You don't know, how strong you can be until being strong is only alternative.",
+      "votes": 11,
+      "id": 6
+    },
+    {
+      "content": "Journey of thousand miles start with single step.",
+      "votes": 7,
+      "id": 7
+    }
+  ]
+}
