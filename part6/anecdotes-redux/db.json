@@ -17,12 +17,12 @@
     },
     {
       "content": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
-      "votes": 8,
+      "votes": 9,
       "id": 4
     },
     {
       "content": "Man of Words not of deeds is like garden full of weeds.",
-      "votes": 13,
+      "votes": 14,
       "id": 5
     },
     {
@@ -34,6 +34,11 @@
       "content": "Journey of thousand miles start with single step.",
       "votes": 7,
       "id": 7
+    },
+    {
+      "content": "This is my personal voting line ",
+      "votes": 8,
+      "id": 8
     }
   ]
 }
