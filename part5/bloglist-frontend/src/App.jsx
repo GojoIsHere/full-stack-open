@@ -172,7 +172,7 @@ const App = () => {
         });
     }
   };
-
+  // tis is log out session:
   const logout = () => {
     setuser(null);
     window.localStorage.removeItem("userData");
