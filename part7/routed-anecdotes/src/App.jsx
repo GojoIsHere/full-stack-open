@@ -55,7 +55,7 @@ const App = () => {
       ...anecdote,
       votes: anecdote.votes + 1,
     };
-
+    //setting anecdote with mapping.
     setAnecdotes(anecdotes.map((a) => (a.id === id ? voted : a)));
   };
 
