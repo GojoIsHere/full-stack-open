@@ -5,7 +5,7 @@ import { createStore } from "redux";
 import reducer from "./reducer";
 
 const store = createStore(reducer);
-
+// this is App component 
 const App = () => {
   const btnClick = (e) => {
     console.log(e.target.name.toUpperCase());
